@@ -1,0 +1,26 @@
+<html>
+	<center>
+        <!-- Contact section -->
+    <table border="5"  cellspacing="0" cellpadding="20" style="background: linear-gradient(90deg, #00dbde, #fc00ff)";>
+       
+<section id="contact" class="contact">
+	<h2>Contact me</h2>
+	<form action="submit-form.php" method="post">
+        <tr>
+            <td><label for="name">Name:</label>
+		<input type="text" id="name" name="name" required></tr></td>
+        <tr>
+		<td><label for="email">Email:</label>
+		<input type="email" id="email" name="email" required></tr></td>
+		<tr>
+            <td><label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" required>
+		<tr>
+            <td><label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea></tr></td>
+		<tr>
+            <td><button onclick="alert('Thank you')" type="submit" name="submit">Send message</button></td></tr>
+	</form>
+</section>
+</center>
+</html>
